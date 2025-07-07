@@ -1,0 +1,3 @@
+ALTER TABLE expense_group
+ADD COLUMN created_by BIGINT,
+ADD FOREIGN KEY (created_by) REFERENCES user(id) ON DELETE CASCADE;

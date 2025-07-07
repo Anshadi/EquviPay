@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: ExpenseShare
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/expense_db
+    username: root
+    password: root
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      maximum-pool-size: 10
+      minimum-pool-size: 2
+      minimum-idle: 2
+      idle-timeout: 30000
+      connection-timeout: 30000
+      pool-name: ExpenseShareHikariPool
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migrations
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
