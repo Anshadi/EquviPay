@@ -223,14 +223,6 @@ The application uses Flyway migrations to manage database schema:
 
 2. Serve the built files using any web server
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests for new features
-5. Submit a pull request
-
 
 ---
 
