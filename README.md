@@ -231,19 +231,6 @@ The application uses Flyway migrations to manage database schema:
 4. Add tests for new features
 5. Submit a pull request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- Spring Boot community for excellent documentation
-- React team for the robust frontend framework
-- Tailwind CSS for the utility-first CSS framework
-
-## 📞 Support
-
-For support, email your-email@example.com or create an issue in the GitHub repository.
 
 ---
 
